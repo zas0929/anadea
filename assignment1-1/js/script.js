@@ -1,0 +1,1 @@
+$('time[data-interval]').getDate();

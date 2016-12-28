@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment 1</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row header-top">
+                <div class="col-xs-12 col-sm-6">
+                    <h1><a href="#" class="logo">Classified Ads</a></h1>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="settings-block">
+                        <a href="#" class="btn">Post your Ad</a>
+                        <ul class="language clearfix">
+                            <li>
+                                <img src="images/ico-gb-flag.jpg" alt="flag">
+                            </li>
+                            <li class="language-switcher">
+                                <input type="checkbox" id="switcher" name="switcher">
+                                <label for="switcher"></label>
+                            </li>
+                            <li>
+                                <img src="images/ico-sp-flag.jpg" alt="flag">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row header-search">
+                <form action="">
+                    <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                        <select name="city" class="select-city">
+                            <option value="la">Los Angeles</option>
+                            <option value="ny">New York</option>
+                            <option value="sf">San Francisco</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-8 col-sm-9 col-md-10 col-lg-6">
+                        <input type="search" class="search" name="search" placeholder="What are you looking?">
+                    </div>
+                    <div class="col-xs-9 col-lg-3">
+                        <select name="rubric" class="choose-rubric">
+                            <option data-display="Choose rubric">Choose rubric</option>
+                            <option value="auto">Auto</option>
+                            <option value="moto">Moto</option>
+                            <option value="all">All</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-3 col-lg-1">
+                        <input type="submit" class="submit" name="submit" value="Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="container-fluid clearfix">
+            <aside class="banners">
+                <ul class="banners-list">
+                    <li><a href="#"><img src="images/pic-banner-nesher.jpg" alt="banner"></a></li>
+                    <li><a href="#"><img src="images/pic-banner-rubin.jpg" alt="banner"></a></li>
+                    <li><a href="#"><img src="images/pic-banner-annual.jpg" alt="banner"></a></li>
+                    <li><a href="#"><img src="images/pic-banner-miron.jpg" alt="banner"></a></li>
+                    <li><a href="#"><img src="images/pic-banner-cash.jpg" alt="banner"></a></li>
+                    <li><a href="#"><img src="images/pic-banner-rubin.jpg" alt="banner"></a></li>
+                    <li><a href="#"><img src="images/pic-banner-annual.jpg" alt="banner"></a></li>
+                </ul>
+            </aside>
+            <div class="main-content">
+                <div class="item">
+                    <div class="item-auto">
+                        <div class="img-holder">
+                            <img src="images/pic-range.jpg" alt="Range Rover">
+                            <div class="price">$2,500</div>
+                        </div>
+                        <h3 class="auto-title"><a href="#">Bueno y ahorrador de gasolina</a></h3>
+                        <p>Vendo un Honda civic 93 color rojo automatico motor y transmision</p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="item">
+                    <div class="item-auto">
+                        <div class="img-holder">
+                            <div class="price">$2,500</div>
+                        </div>
+                        <h3 class="auto-title"><a href="#">Bonita van familiar</a></h3>
+                        <p>Vendo un Honda civic 93 color rojo automatico motor y transmision</p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="item">
+                    <div class="item-auto">
+                        <h3 class="auto-title"><a href="#">Limpio</a></h3>
+                        <p>Vendo un Honda civic 93 color rojo automatico motor y transmision </p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="item wide-item">
+                    <div class="item-auto">
+                        <div class="img-holder">
+                            <img src="images/pic-maserrati.jpg" alt="Range Rover">
+                            <div class="price">$2,500</div>
+                        </div>
+                        <h3 class="auto-title"><a href="#">Golf todo original</a></h3>
+                        <p>2005 Volkswagen New Beetle Gls Convertible 2d | Kilometrage: milliono Vendo un Honda civic 93 color rojo autmatico motor y transmision</p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="item yellow-block">
+                    <div class="item-auto">
+                        <div class="img-holder">
+                            <img src="images/pic-ferrari.jpg" alt="Range Rover">
+                            <div class="price">$2,500</div>
+                            <ul class="car-list">
+                                <li><img src="images/pic-ferrari2.jpg" alt="Ferrari"></li>
+                                <li><img src="images/pic-ferrari3.jpg" alt="Ferrari"></li>
+                                <li><img src="images/pic-ferrari4.jpg" alt="Ferrari"></li>
+                            </ul>
+                        </div>
+                        <h3 class="auto-title"><a href="#">Dodge Ram 97</a></h3>
+                        <p>Vendo un Honda civic 93 color rojo automatico motor y transmision. Vendo un Honda civic 93 color rojo automatico</p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="item">
+                    <div class="item-auto">
+                        <div class="img-holder">
+                            <img src="images/pic-austin.jpg" alt="Range Rover">
+                            <div class="price">$2,500</div>
+                        </div>
+                        <h3 class="auto-title"><a href="#">Golf todo original</a></h3>
+                        <p>Vendo un Honda civic 93 color rojo automatico motor y transmision. Vendo un Honda civic 93 color rojo automatico motor y transmision</p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="item">
+                    <div class="item-auto">
+                        <div class="img-holder">
+                            <img src="images/pic-camaro.jpg" alt="Range Rover">
+                            <div class="price">$2,500</div>
+                            <ul class="car-list">
+                                <li><img src="images/pic-camaro2.jpg" alt="Ferrari"></li>
+                                <li><img src="images/pic-camaro3.jpg" alt="Ferrari"></li>
+                                <li><img src="images/pic-camaro4.jpg" alt="Ferrari"></li>
+                            </ul>
+                        </div>
+                        <h3 class="auto-title"><a href="#">2001 Dodge stratus</a></h3>
+                        <p>Vendo un Honda civic 93 color rojo automatico motor y transmision. Vendo un Honda civic 93 color rojo automatico</p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="item">
+                    <div class="item-auto">
+                        <div class="img-holder">
+                            <img src="images/pic-range.jpg" alt="Range Rover">
+                            <div class="price">$2,500</div>
+                        </div>
+                        <h3 class="auto-title"><a href="#">Bueno y ahorrador de gasolina</a></h3>
+                        <p>Vendo un Honda civic 93 color rojo automatico motor y transmision</p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="item yellow-block">
+                    <div class="item-auto">
+                        <h3 class="auto-title"><a href="#">Bonita familiar turbo es standar</a></h3>
+                        <p>Vendo un Honda civic 93 color rojo automatico motor y transmision</p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="item">
+                    <div class="item-auto">
+                        <h3 class="auto-title"><a href="#">2000 golf turbo es standar</a></h3>
+                        <p>Vendo un Honda civic 93 color rojo automatico motor y transmision</p>
+                    </div>
+                    <footer class="info-block">
+                        <div class="route">
+                            <ul class="clearfix">
+                                <li><a href="#">Cars</a></li>
+                                <li>&raquo;</li>
+                                <li><a href="#">Honda</a></li>
+                            </ul>
+                            <p class="time">Today, 11:15 am</p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.3.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/masonry.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
